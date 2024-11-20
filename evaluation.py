@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import torch
 
 def evaluate_ensemble(models, X_test, scaler, args):
     predictions = []

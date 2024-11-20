@@ -1,5 +1,7 @@
 import torch
 from torch.utils.data import DataLoader, Dataset
+from model import SimpleLSTM
+from torch import nn
 
 class WindDataset(Dataset):
     def __init__(self, X, y):
